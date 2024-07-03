@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "devraj-adf-dataengineer-sea-01"
+		},
+		"AzureDataLakeTempStorage_accountKey": {
+			"value": ""
+		},
+		"BronzeAzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeTempStorage_properties_typeProperties_url": {
+			"value": "https://devrajprojstorageaccount.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0611-183948-8yowsddh"
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://devraj-keyvault-sea-01.vault.azure.net/"
+		},
+		"BronzeAzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://devrajprojstorageaccount.dfs.core.windows.net/"
+		},
+		"OnPremSqlServer_properties_typeProperties_server": {
+			"value": "DEVRAJPC\\SQLEXPRESS"
+		},
+		"OnPremSqlServer_properties_typeProperties_database": {
+			"value": "AdventureWorks2017"
+		},
+		"OnPremSqlServer_properties_typeProperties_userName": {
+			"value": "mrk"
+		}
+	}
+}
