@@ -1,0 +1,9 @@
+{
+	"name": "devraj-adf-dataengineer-sea-01",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5bd54767-114b-451e-9f54-7c9abc535590",
+		"tenantId": "497152ca-b7f6-4b40-a00c-98578d16a920"
+	}
+}

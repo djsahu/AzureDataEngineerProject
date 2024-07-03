@@ -1,0 +1,20 @@
+{
+	"name": "temp_image2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeTempStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "temp_image2.jpeg",
+				"folderPath": "tempfolder2",
+				"fileSystem": "temp"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

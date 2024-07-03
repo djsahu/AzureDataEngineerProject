@@ -1,0 +1,6 @@
+{
+	"name": "SqlSHIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
